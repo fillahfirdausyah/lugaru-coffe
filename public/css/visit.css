@@ -1,0 +1,230 @@
+@media (max-width: 768px){
+	nav{ 
+		background-color: #331801;
+		height: 90px;
+		padding: 10px;
+	}
+
+	nav .btn-sm{
+		padding: 10px;
+		margin: 10px;
+		background: none;
+		color: #FAFAFA;
+		font-size: 17px;
+		line-height: 1.6;
+		letter-spacing: 2px;
+		font-weight: 80%;
+		font-family: "Open Sans", sans-serif;
+	}
+
+	nav .btn-sm:hover{
+		background: #FAFAFA;
+		color: #331801;
+	}
+
+	footer{
+		padding: 10px;
+		margin-bottom: 30px;
+		background-color: #2E1700;
+	}	
+
+	#contact{
+		color: #FAFAFA;
+		font-family: "Open Sans", sans-serif;
+		line-height: 1.6;
+	}
+
+	#advice{
+		border: 2px solid #000000;
+		background-color: #FAFAFA;
+		border-radius: 10px;
+		color: #2E1700;
+	}
+
+	#advice .btn-sm{
+		background-color: #2E1700;
+		color: #FFFFFF;
+	}
+	
+	.product img{
+		  opacity: 1;
+		  display: block;
+		  width: 100%;
+		  transition: .5s ease;
+		  backface-visibility: hidden;
+	}
+
+	.product .contains{
+		transition: .5s ease;
+		opacity: 0;
+		bottom: 20%;
+		-ms-transform: skewY(-10deg); /* IE 9 */
+  		transform: skewY(-10deg);
+		position: absolute;
+		text-align: center;
+	}
+
+	.product:hover img{
+  		opacity: 0.6;
+	}
+
+	.product:hover .contains{
+		opacity: 0.7;
+	}
+
+	.text{
+		border: 1px solid #000000;
+		background-color: #000000;
+		color: #FAFAFA;
+		font-size: 16px;
+		padding: 16px 32px;
+	}
+
+	.product-title{
+		font-size: 25px;
+	}
+
+	.category button{
+		background-color: #fff;
+		border: none;
+		font-size: 20px;
+	}
+
+	.category button:hover{
+		background-color: #331801;
+		color: #fff;
+		border-radius: 10px;
+		font-size: 20px;
+	}
+
+	.snack{
+		border-left: 2px solid #000000;
+	}
+
+	.beverage{
+		border-right: 2px solid #000000;
+	}
+
+}
+
+@media (min-width: 768px){
+	nav{ 
+		background-color: #331801;
+		height: 90px;
+		padding: 10px;
+	}
+
+	nav #icon{display: none;}
+
+	nav .btn-sm{
+		padding: 10px;
+		margin: 10px;
+		background: none;
+		color: #FAFAFA;
+		font-size: 17px;
+		line-height: 1.6;
+		letter-spacing: 2px;
+		font-weight: 80%;
+		font-family: "Open Sans", sans-serif;
+	}
+
+	nav .btn-sm:hover{
+		background: #FAFAFA;
+		color: #331801;
+	}
+
+
+	nav .col-md-6{
+		margin-left: 100px;
+	}
+
+	small{
+		color: #3C3D3D;
+	}
+
+	footer{
+		padding: 10px;
+		margin-bottom: 30px;
+		background-color: #2E1700;
+	}	
+
+	#contact{
+		color: #FAFAFA;
+		font-family: "Open Sans", sans-serif;
+	}
+
+	#advice{
+		border: 2px solid #000000;
+		background-color: #FAFAFA;
+		border-radius: 10px;
+		color: #2E1700;
+	}
+
+	#advice .btn-sm{
+		background-color: #2E1700;
+		color: #FFFFFF;
+	}
+
+	.event-title{
+		font-size: 30px;
+	}
+
+	.product img{
+		  opacity: 1;
+		  display: block;
+		  width: 100%;
+		  transition: .5s ease;
+		  backface-visibility: hidden;
+	}
+
+	.product .contains{
+		transition: .5s ease;
+		opacity: 0;
+		bottom: 30%;
+		-ms-transform: skewY(-10deg); /* IE 9 */
+  		transform: skewY(-10deg);
+		position: absolute;
+		text-align: center;
+	}
+
+	.product:hover img{
+  		opacity: 0.6;
+	}
+
+	.product:hover .contains{
+		opacity: 0.7;
+	}
+
+	.text{
+		border: 1px solid #000000;
+		background-color: #000000;
+		color: #FAFAFA;
+		font-size: 16px;
+		padding: 16px 32px;
+	}
+
+	.product-title{
+		font-size: 25px;
+	}
+
+	.category button{
+		background-color: #fff;
+		border: none;
+		font-size: 20px;
+	}
+
+	.category button:hover{
+		background-color: #331801;
+		color: #fff;
+		border-radius: 10px;
+		font-size: 20px;
+	}
+
+	.snack{
+		border-left: 2px solid #000000;
+	}
+
+	.beverage{
+		border-right: 2px solid #000000;
+	}
+}

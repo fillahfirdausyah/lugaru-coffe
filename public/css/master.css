@@ -1,0 +1,162 @@
+body{
+	color: #000000;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+@media (max-width: 768px){
+	nav{ 
+		background-color: #FAFAFA;
+		height: 90px;
+	}
+
+	nav img{
+		display: none;
+	}
+
+	nav #myTopnav{
+		margin-left: 20px;
+	}
+
+	nav .btn-sm{
+		margin: 10px;
+		height: 40px;
+		background: none;
+		color: #000000;
+		font-size: 15px;
+		line-height: 1.6;
+		letter-spacing: 2px;
+		font-weight: 80%;
+		font-family: "Open Sans", sans-serif;
+	}
+
+	.profil{
+		margin-left: 10px;
+	}
+
+	.about_us{
+		display: flex;
+	}
+
+	footer{
+		padding: 10px;
+		margin-bottom: 30px;
+		background-color: #2E1700;
+	}	
+
+	#contact{
+		color: #FAFAFA;
+		font-family: "Open Sans", sans-serif;
+		display: inline;
+	}
+
+	#advice{
+		border: 2px solid #000000;
+		background-color: #FAFAFA;
+		border-radius: 10px;
+		color: #2E1700;
+		display: inline;
+	}
+
+	#advice .btn-sm{
+		background-color: #2E1700;
+		color: #FFFFFF;
+	}
+
+}
+@media (min-width: 768px){
+
+	nav{ 
+		background-color: #FAFAFA;
+		height: 90px;
+	}
+
+	nav .btn-sm{
+		margin: 10px;
+		height: 40px;
+		background: none;
+		color: #000000;
+		font-size: 15px;
+		line-height: 1.6;
+		letter-spacing: 2px;
+		font-weight: 80%;
+		font-family: "Open Sans", sans-serif;
+	}
+
+	nav .btn-sm:hover{
+		background: #331801;
+		color: #FAFAFA;
+	}
+
+	nav .col-md-3{
+		margin-left: 100px;
+	}
+
+	nav .col-md-3 h2{
+		text-decoration: underline;
+		font-weight: bold;
+		margin-left: 10px;
+		color: #2E1700;
+	}
+
+	main{
+		margin-top: 80px;
+	}
+
+	section{
+		margin-bottom: 20px;
+	}
+
+	.profil .col-md-3{
+		border-right: 2px solid #000000;
+	}
+
+	.about_us{
+		background-color: #2E1700; 
+		color: #FAFAFA;
+	}
+
+	.gallery .col-md-4 img{
+		margin: 5px;
+	}
+
+	.gallery .col-md-4 img:hover{
+		position: relative;
+		-ms-transform: scale(1.1,1.1);
+  		transform: scale(1.1,1.1);
+  		box-shadow:  0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 25px 0 rgba(0, 0, 0, 0.19);
+  		border-radius: 5px;
+	}
+
+	.event{
+		margin: auto;
+	}
+
+	footer{
+		padding: 10px;
+		margin-bottom: 30px;
+		background-color: #2E1700;
+	}	
+
+	#contact{
+		color: #FAFAFA;
+		font-family: "Open Sans", sans-serif;
+		line-height: 1.6;
+	}
+
+	#advice{
+		border: 2px solid #000000;
+		background-color: #FAFAFA;
+		border-radius: 10px;
+		color: #2E1700;
+	}
+
+	#advice .btn-sm{
+		background-color: #2E1700;
+		color: #FFFFFF;
+	}
+}
+
