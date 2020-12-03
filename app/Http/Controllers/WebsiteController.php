@@ -53,6 +53,11 @@ class WebsiteController extends Controller
         return view('visit/event', compact('event'));
     }
 
+    public function indexMenu()
+    {
+        return view('visit/menu');
+    }
+
     public function category(Request $request)
     {
         $category = $request->get('query');

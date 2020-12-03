@@ -22,6 +22,7 @@ Route::get('/gallery', 'WebsiteController@indexGallery');
 Route::get('/event', 'WebsiteController@indexEvent');
 Route::post('/feedback', 'WebsiteController@storeFeedback');
 Route::get('/captchareload', 'WebsiteController@reloadCaptcha');
+Route::get('/listmenu', 'WebsiteController@indexMenu');
 
 
 //Admin  

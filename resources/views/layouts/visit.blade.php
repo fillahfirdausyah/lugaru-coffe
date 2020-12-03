@@ -33,7 +33,7 @@
 	</nav>
 </header>
 <main>
-@yield('content')
+		@yield('content')
 </main>
 
 <footer class="container-fluid">
