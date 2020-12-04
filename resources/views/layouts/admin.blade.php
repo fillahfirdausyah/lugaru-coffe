@@ -32,6 +32,7 @@
 		<div>
 			<a href="{{url('.')}}"><button class="btn btn-primary">Website</button></a>
 			<a href="/pengurus"><button class="btn btn-primary">Dashboard</button></a>
+			<a href="/pengurus/profile"><button class="btn btn-primary">Profile</button></a>
 			<a href="/pengurus/event"><button class="btn btn-primary">Event</button></a>
 			<a href="/pengurus/gallery"><button class="btn btn-primary">Gallery</button></a>
 			<a href="/pengurus/product"><button class="btn btn-primary">Product</button></a>

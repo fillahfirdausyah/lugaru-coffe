@@ -28,10 +28,15 @@ Route::get('/listmenu', 'WebsiteController@indexMenu');
 //Admin  
 Auth::routes();
 
-	Route::middleware(['auth'])->group(function () {
+	// Route::middleware(['auth'])->group(function () {
     Route::get('/pengurus', function () {
         return view('admin/main_admin');
     });
+
+    //profile
+    Route::get('/pengurus/profile', 'ProfileController@index');
+    Route::post('/pengurus/profile/img', 'ProfileController@StoreImgProfile');
+    Route::post('/pengurus/profile/desc', 'ProfileController@storeDescProfile');
 
 	//gallery
 	Route::get('/pengurus/gallery', 'GalleryController@index');
@@ -63,6 +68,8 @@ Auth::routes();
 	Route::post('/pengurus/editproduct/{id}', 'ProductController@update');
 	Route::delete('/pengurus/deleteproduct/{id}', 'ProductController@destroy');
 
+	//feedback
 	Route::get('/pengurus/feedback', 'FeedbackController@index');
 	Route::delete('/pengurus/deletefeedback/{id}', 'FeedbackController@destroy');
-});
+
+// });

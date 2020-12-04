@@ -3,6 +3,12 @@
 @section('content')
 <h1 class="text-center">Welcome to Admin Lugaru Cafe</h1>
 <div class="row admin-dashboard">
+	<div class="col-5 dashboard-profile">
+		<span class="title"> Profile </span>
+		<hr>
+		<br>
+		<a href="/pengurus/profile">More Info</a>
+	</div>
 	<div class="col-5 dashboard-event">
 		<span class="title"> Event </span>
 		<hr>

@@ -10,6 +10,8 @@ use App\Models\Product;
 use App\Models\Gallery;
 use App\Models\Event;
 use App\Models\Feedback;
+use App\Models\ProfileIMG;
+use App\Models\ProfileDESC;
 
 class WebsiteController extends Controller
 {
@@ -29,7 +31,10 @@ class WebsiteController extends Controller
         //get event image
         $event = Event::orderBy('id', 'desc')->take(6)->get();
 
-        return view('layouts.master', compact('event', 'product', 'gallery'));
+        $profileimg = ProfileIMG::orderBy('created_at', 'desc')->take(3)->get();
+        $profiledesc = ProfileDESC::latest('created_at')->get();
+
+        return view('layouts.master', compact('event', 'product', 'gallery', 'profileimg', 'profiledesc'));
     }
 
     public function indexGallery()

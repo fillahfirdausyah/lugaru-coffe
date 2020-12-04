@@ -102,9 +102,16 @@ body{
 		display: flex;
 		color: #FAFAFA;
 	}
-	.dashboard-event, .dashboard-product, .dashboard-gallery, .dashboard-feedback{
+	
+	.dashboard-event, .dashboard-product, 
+	.dashboard-gallery, .dashboard-feedback, 
+	.dashboard-profile{
 		border-radius: 10px;
 		margin: 5px;
+	}
+
+	.dashboard-profile{
+		background-color: #FCF914;
 	}
 
 	.dashboard-event{

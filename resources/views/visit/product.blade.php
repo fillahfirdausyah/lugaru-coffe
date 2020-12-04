@@ -29,10 +29,8 @@
             <div class="col-md-4 product mb-3">
                     <img src="{{asset('image/'.$p->image)}}" height="350">
                 <div class="contains">
-                    <div class="text">
-                        <span class="product-title">{{ $p->name }}</span><br>
-                        <p>Kandungan : {{ $p->contains }}</p>
-                    </div>
+                    <span class="product-title">{{ $p->name }}</span><br>
+                    <p>Kandungan : {{ $p->contains }}</p>
                 </div>
             </div>
             @endforeach
