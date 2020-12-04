@@ -53,12 +53,14 @@
 		    <div class="carousel-item active">
 		      	<img class="d-block w-100" src="{{ asset('profile_image/'.$profileimg[0]->image) }}" alt="First slide" width="80%" height="400">
 		    </div>
+		    @if($profileimg->count() > 1)
 		    <div class="carousel-item">
 		      	<img class="d-block w-100" src="{{ asset('profile_image/'.$profileimg[1]->image) }}" alt="Second slide" width="80%" height="400">
 		    </div>
 		    <div class="carousel-item">
 		      	<img class="d-block w-100" src="{{ asset('profile_image/'.$profileimg[2]->image) }}" alt="Third slide" width="80%" height="400">
 		    </div>
+		    @endif
 		  	</div>
 		  		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 		    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
