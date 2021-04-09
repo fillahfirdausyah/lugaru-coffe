@@ -32,7 +32,7 @@
 	</nav>
 	<div class="container mt-3">
 		<div class="cover text-center">
-			<img src="{{ asset('image/menu/menu-book.jpeg') }}" alt="" class="img-fluid">
+			<img src="{{ asset('menu/menu-book.jpeg') }}" alt="" class="img-fluid">
 			<div class="arrow">
 				<h1 class="animate__animated animate__slideInDown animate__repeat-3"><a href="#"><i class="bi bi-arrow-down-circle" style="color: white"></i></a></h1>
 				<span>Scroll Down</span>
@@ -42,47 +42,47 @@
 			<div class="content1" data-aos="fade-up" data-aos-duration="1500">
 				<h2>Espresso Based</h2>
 				<hr>
-				<img src="{{ asset('image/menu/espresso.jpeg') }}" alt="" class="img-fluid">
+				<img src="{{ asset('menu/espresso.jpeg') }}" alt="" class="img-fluid">
 			</div>
 			<div class="content1 mt-4" data-aos="fade-up" data-aos-duration="1500">
 				<h2>Milk Based</h2>
 				<hr>
-				<img src="{{ asset('image/menu/milk.jpeg') }}" alt="" class="img-fluid">
+				<img src="{{ asset('menu/milk.jpeg') }}" alt="" class="img-fluid">
 			</div>
 			<div class="content1 mt-4" data-aos="fade-up" data-aos-duration="1500">
 				<h2>Manual Brew</h2>
 				<hr>
-				<img src="{{ asset('image/menu/manual.jpeg') }}" alt="" class="img-fluid">
+				<img src="{{ asset('menu/manual.jpeg') }}" alt="" class="img-fluid">
 			</div>
 			<div class="content1 mt-4" data-aos="fade-up" data-aos-duration="1500">
 				<h2>Signature</h2>
 				<hr>
-				<img src="{{ asset('image/menu/espresso.jpeg') }}" alt="" class="img-fluid">
+				<img src="{{ asset('menu/espresso.jpeg') }}" alt="" class="img-fluid">
 			</div>
 			<div class="content1 mt-4" data-aos="fade-up" data-aos-duration="1500">
 				<h2>Smoothies</h2>
 				<hr>
-				<img src="{{ asset('image/menu/smoothies.jpeg') }}" alt="" class="img-fluid">
+				<img src="{{ asset('menu/smoothies.jpeg') }}" alt="" class="img-fluid">
 			</div>
 			<div class="content1 mt-4" data-aos="fade-up" data-aos-duration="1500">
 				<h2>Mockatil</h2>
 				<hr>
-				<img src="{{ asset('image/menu/mocktail.jpeg') }}" alt="" class="img-fluid">
+				<img src="{{ asset('menu/mocktail.jpeg') }}" alt="" class="img-fluid">
 			</div>
 			<div class="content1 mt-4" data-aos="fade-up" data-aos-duration="1500">
 				<h2>Tea</h2>
 				<hr>
-				<img src="{{ asset('image/menu/tea.jpeg') }}" alt="" class="img-fluid">
+				<img src="{{ asset('menu/tea.jpeg') }}" alt="" class="img-fluid">
 			</div>
 			<div class="content1 mt-4" data-aos="fade-up" data-aos-duration="1500">
 				<h2>Snack</h2>
 				<hr>
-				<img src="{{ asset('image/menu/snack.jpeg') }}" alt="" class="img-fluid">
+				<img src="{{ asset('menu/snack.jpeg') }}" alt="" class="img-fluid">
 			</div>
 			<div class="content1 mt-4" data-aos="fade-up" data-aos-duration="1500">
 				<h2>Food</h2>
 				<hr>
-				<img src="{{ asset('image/menu/food.jpeg') }}" alt="" class="img-fluid">
+				<img src="{{ asset('menu/food.jpeg') }}" alt="" class="img-fluid">
 			</div>
 		</div>
 	</div>
